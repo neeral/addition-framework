@@ -5,7 +5,7 @@ import sbtassembly.Plugin._
 import sbt.Keys._
 import sbt._
 
-object AwesomeFrameworkBuild extends Build {
+object AdditionFrameworkBuild extends Build {
 
   lazy val projectScalaVersion = "2.11.6"
   lazy val projectVersion = "0.0.1-SNAPSHOT"
@@ -96,7 +96,7 @@ object AwesomeFrameworkBuild extends Build {
   )
 
   lazy val root = Project(
-    id = "awesome-framework",
+    id = "addition-framework",
     base = file("."),
     settings = sharedSettings ++ assemblySettings
   ).settings(
