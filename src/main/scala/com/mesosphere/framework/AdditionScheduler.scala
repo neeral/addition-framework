@@ -148,7 +148,7 @@ object AdditionScheduler {
   def main(args: Array[String]) {
     val frameworkInfo = FrameworkInfo.newBuilder()
       .setName("distr addition Framework")
-      .setFailoverTimeout((60 seconds) toMillis)
+      .setFailoverTimeout(60.seconds.toMillis)
       .setCheckpoint(false)
       .setUser("") // Mesos can do this for us
       .build
