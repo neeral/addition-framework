@@ -43,7 +43,7 @@ $ vagrant ssh
 vagrant@mesos:~ $ cd hostfiles
 
 # Start the scheduler
-vagrant@mesos:~ $ java -cp /home/vagrant/hostfiles/target/scala-2.11/addition-framework-assembly-0.0.1-SNAPSHOT.jar com.mesosphere.framework.AdditionSchedulervagrant@mesos
+vagrant@mesos:~ $ java -cp /home/vagrant/hostfiles/target/scala-2.11/addition-framework-assembly-0.0.1-SNAPSHOT.jar com.mesosphere.framework.AdditionScheduler
 
 # once completed, it will stop on its own
 # example output at the end
